@@ -1,0 +1,78 @@
+/* Estilo global para o body */
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+.main-container-cad,
+.main-container-cad1 {
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.main-container-cad1 {
+    margin-top: 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+input.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 1rem;
+}
+
+button.btn {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .main-container-cad,
+    .main-container-cad1 {
+        padding: 15px;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
